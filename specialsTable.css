@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*  Style Sheet for Specials Table  
+	Filename:	specialsTable.css
+*/
+
+/* Specials Table Styles */
+
+div#specials {
+   -webkit-flex: 1 1 600px;
+   flex: 1 1 600px;   
+}
+
+div#specials table {
+   table-layout: auto;
+	font-size: 1.4em;
+   border-collapse:collapse;
+	display: inline-table;
+   margin: 5em 3em;
+   border: 3px;
+}
+
+div#specials table td {
+	font-weight: normal;
+	line-height: 1em;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	padding: 10px 50px 10px 50px;
+}

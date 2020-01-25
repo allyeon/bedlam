@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*  Style Sheet for Menu Table  
+	Filename:	menuTable.css
+*/
+
+/* Menu Table Styles */
+
+div#menu {
+   -webkit-flex: 1 1 600px;
+   flex: 1 1 600px;   
+}
+
+div#menu table {
+   table-layout: auto;
+	font-size: 1.4em;
+   border-collapse:collapse;
+	display: inline-table;
+   margin: 3em;
+   border: 1px;
+}
+
+div#menu table td {
+	font-weight: normal;
+	line-height: 1em;
+	border-bottom: solid 1px;
+	padding: 10px 50px 10px 50px;
+}

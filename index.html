@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--
+	New Perspectives on HTML5 and CSS3, 7th Edition
+	Competency Two Project
+	Das Habegger Haus
+	Author: Daniel L Habegger
+	Date:   10/22/2019
+   
+	Filename: index.html
+-->
+   
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Das Habegger Haus</title> 
+	<link href="reset.css" rel="stylesheet" />
+	<link href="base.css" rel="stylesheet" />
+	<script src="./JSCode/menu.js" defer></script>
+	<script src="./JSCode/specials.js" defer></script>
+	<script src="./JSCode/banner.js" defer></script>
+</head>
+	
+<body>
+	
+	<img src="images/Staubbach.png" id="Banner" alt="Banner" style="width:100%">
+	
+<!--	This previous div is replaced by the banner
+		<div class="homeBackground">
+-->
+	<div class="restaurantName">Das Habegger Haus</div>
+<!--	</div>  -->
+	
+	<header>
+		<nav class="horizontalNavigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="specials.html" target="_blank">Specials</a>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+    </header>
+   
+	<article>
+		<section>
+			<p><cite>Das Habegger Haus</cite> has provided Fort Wayne with authentic Swiss, German, 
+			Austrian and French cuisine since 1983.  Harkening from Trub in the Canton of Bern,
+			Switzerland, the Habeggers of "Hawk Ridge" have been in the Indiana area since 1885.
+			<br/><br/>Originally farmers by trade, we still believe in farm-to-table and locally source most
+			ingredients for our dishes.  The foundation of our offerings are tried and true recipes
+			passed down through generations.  Items include traditional German classics like schnitzel
+			(made with pork), the famous Austrian version wiener schnitzel (veal) and of course
+			items closer to home like our Bernese platter.  Additional delectables can be found on our menu
+			page.<br/><br/>
+			</p>
+		</section>
+		
+		<section>
+			<div class="row">
+				<div class="column">
+					<img src="./images/scaledBern.png" alt="City of Bern" style="width:100%">
+				</div>
+				<div class="column">
+					<img src="./images/scaledInteriorRestaurant.png" alt="Interior of Restaurant" style="width:100%">
+				</div>
+				<div class="column">
+					<img src="./images/scaledTableSetting.png" alt="Place Setting" style="width:100%">
+				</div>
+			</div>
+		</section>
+	</article>
+	
+    <footer>
+		<cite>Das Habegger Haus </cite>&#8226; 3450 Lima Rd, Fort Wayne, IN
+    </footer>
+</body>
+</html>

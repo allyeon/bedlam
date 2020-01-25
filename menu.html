@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--
+	New Perspectives on HTML5 and CSS3, 7th Edition
+	Competency Four Project
+	Das Habegger Haus
+	Author: Daniel L Habegger
+	Date:   12/15/2019
+   
+	Filename: menu.html
+-->
+   
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Das Habegger Haus Menu</title> 
+	<link href="reset.css" rel="stylesheet" />
+	<link href="menu.css" rel="stylesheet" />
+	<link href="base.css" rel="stylesheet" />
+	<script src="./JSCode/calculate.js"></script>
+
+</head>
+	
+<body>
+	<div class="menuBackground">
+		<div class="restaurantNameSmall">Das Habegger Haus</div>
+	</div>
+	
+	<header>
+		<nav class="horizontalNavigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="specials.html" target="_blank">Specials</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<form>  <!-- Starting form -->
+			<table>
+				<tbody class="menu">
+					<tr>
+						<th></th>
+						<th>Item</th>
+						<th>Price</th>
+						<th>Quantity</th>
+					</tr>
+					<tr>
+						<td><img src="./images/germanPS.png"></td>
+						<td>German Potato Salad</td>
+						<td>5.99</td>
+						<td><input type="text" name="gpsQuantity"></td>
+					</tr>
+					<tr>
+						<td><img src="./images/swissFondue.png"></td>
+						<td>Cheese Fondue</td>
+						<td>9.99</td>
+						<td><input type="text" name="sfQuantity"></td>
+					</tr>
+					<tr>
+						<td><img src="./images/porkSchnitzel.png"></td>
+						<td>Pork Schnitzel</td>
+						<td>12.99</td>
+						<td><input type="text" name="psQuantity"></td>
+					</tr>
+					<tr>
+						<td><img src="./images/weinerSchnitzel.png"></td>
+						<td>Weiner Schnitzel</td>
+						<td>15.99</td>
+						<td><input type="text" name="wsQuantity"></td>
+					</tr>
+					<tr>
+						<td><img src="./images/bernesePlatter.png"></td>
+						<td>Bernese Platter</td>
+						<td>18.99</td>
+						<td><input type="text" name="bpQuantity"></td>
+					</tr>
+				</tbody>
+			</table>	
+
+			<button onclick="calculate()">Tally Your Order</button>
+
+		</form>  <!-- Ending form -->
+	</section>
+
+ 
+   <footer>
+	  <br/><br/><cite>Das Habegger Haus </cite>&#8226; 3450 Lima Rd, Fort Wayne, IN
+   </footer>
+</body>
+</html>
